@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Contact | Day Trading Coaching</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="logo" aria-hidden="true"></span>
+      <strong>Day Trading Coaching</strong>
+    </a>
+ <div class="menu-wrap">
+  <button class="hamburger" type="button" aria-expanded="false" data-menu-btn>
+    ☰ Menu
+  </button>
+
+  <nav class="menu" aria-label="Main" data-menu data-open="false">
+    <a href="index.html">Home</a>
+    <a href="program.html">Program</a>
+    <a href="results.html">Results</a>
+    <a class="btn primary" href="contact.html">Book a Call</a>
+  </nav>
+</div>
+
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1 style="margin:0 0 10px">Book a Call</h1>
+    <p class="lead">Tell me what you’re struggling with. I’ll reply with next steps.</p>
+
+    <div class="grid2">
+      <div class="card p-24">
+        <!-- IMPORTANT: Change your@email.com below -->
+        <form class="form" action="mailto:your@email.com" method="post" enctype="text/plain">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" placeholder="Your name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@email.com" required />
+          </div>
+          <div>
+            <label for="msg">What do you want to improve?</label>
+            <textarea id="msg" name="message" placeholder="Example: I overtrade and break rules when I’m down..." required></textarea>
+          </div>
+          <button class="btn primary" type="submit">Send</button>
+        
+        </form>
+      </div>
+
+      <div class="card p-24">
+        <h2 style="margin:0 0 10px">What to expect</h2>
+        <ul style="margin:0; padding-left:18px; color:var(--muted)">
+          <li>Quick call to understand your goals</li>
+          <li>A simple plan for next steps</li>
+          <li>Optional coaching options (if it’s a fit)</li>
+        </ul>
+        <hr class="sep" />
+        <div class="notice">
+          <strong>Note:</strong> If you want a clean booking experience, swap this form for Calendly (or similar).
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <hr class="sep" />
+    <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between;">
+      <div>© 2025 Day Trading Coaching • All rights reserved.</div>
+      <div style="display:flex; gap:12px; flex-wrap:wrap;">
+        <a href="contact.html">Contact</a>
+        <a href="program.html">Program</a>
+        <a href="results.html">Results</a>
+      </div>
+    </div>
+    <div style="margin-top:12px" class="notice">
+      <strong>Risk disclaimer:</strong> Trading involves risk, and losses can exceed deposits depending on instruments and leverage.
+      This website provides education only and does not offer financial advice or guarantees.
+    </div>
+  </div>
+</footer>
+</body>
+<script src="assets/script.js"></script>
+</html>
